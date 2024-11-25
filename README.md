@@ -36,7 +36,16 @@ Este é o repositório do front-end do projeto.
 1. Abra o terminal de sua preferência e navegue até a pasta do projeto, utilizando os comandos de navegação como `cd <pasta>`;
 2. Com o prompt apontando para a raiz da pasta do projeto, execute o comando `npm install` e aguarde a finalização.
 
-## PASSO 3: Execute o projeto para subir o servidor local:
+## PASSO 3: Crie o arquivo `.env` com a variável de ambiente `API_URL`
+1. Na raiz do projeto, crie um arquivo chamado `.env`;
+2. Insira o seguinte conteúdo no arquivo, substituindo `<URL_DA_SUA_API>` pela URL correta da sua API:
+   ```env
+   API_URL=<URL_DA_SUA_API>
+   ```
+> Exemplo: Se sua API estiver em execução no endereço `http://localhost:3000`, o conteúdo do `.env` será:
+> API_URL=http://localhost:3000
+
+## PASSO 4: Execute o projeto para subir o servidor local:
 
 Acesse o terminal (do Visual Studio Code ou outro), certifique-se que esteja exibindo a pasta correta do projeto e execute o comando `npm run dev`. O terminal deverá retornar:
 
